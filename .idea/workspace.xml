@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78915fe7-c099-4d57-ac7b-a4343808822d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +12,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Algorithm$GoldMining.coverage" NAME="GoldMining Coverage Results" MODIFIED="1553239464323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DynamicProgramming/GoldMining" />
+    <SUITE FILE_PATH="coverage/Algorithm$LIS.coverage" NAME="LIS Coverage Results" MODIFIED="1553408399373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP/LIS" />
     <SUITE FILE_PATH="coverage/Algorithm$KSum.coverage" NAME="KSum Coverage Results" MODIFIED="1553319136305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DynamicProgramming/KSum" />
+    <SUITE FILE_PATH="coverage/Algorithm$LIS_optim.coverage" NAME="LIS_optim Coverage Results" MODIFIED="1553409923185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DP/LIS" />
     <SUITE FILE_PATH="coverage/Algorithm$Bag.coverage" NAME="Bag Coverage Results" MODIFIED="1553322826612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DynamicProgramming/Bag" />
     <SUITE FILE_PATH="coverage/Algorithm$upstairs.coverage" NAME="upstairs Coverage Results" MODIFIED="1553173614154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DynamicProgramming/UpStairs" />
   </component>
@@ -37,13 +38,15 @@
         <option value="$PROJECT_DIR$/DynamicProgramming/GoldMining/GoldMining.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/KSum/KSum.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/Bag/Bag.py" />
+        <option value="$PROJECT_DIR$/DP/LIS/LIS.py" />
+        <option value="$PROJECT_DIR$/DP/LIS/LIS_optim.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="934" />
-    <option name="width" value="993" />
-    <option name="height" value="1055" />
+    <option name="x" value="933" />
+    <option name="width" value="995" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -53,6 +56,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -63,24 +67,13 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="GoldMining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="UpStairs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+              <item name="LIS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -90,7 +83,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Bag">
+  <component name="RunManager" selected="Python.LIS_optim">
     <configuration name="Bag" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="upstairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LIS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,12 +178,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming/UpStairs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/LIS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/UpStairs/upstairs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/LIS/LIS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LIS_optim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DP/LIS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP/LIS/LIS_optim.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,10 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LIS_optim" />
+        <item itemvalue="Python.LIS" />
         <item itemvalue="Python.Bag" />
         <item itemvalue="Python.KSum" />
         <item itemvalue="Python.GoldMining" />
-        <item itemvalue="Python.upstairs" />
       </list>
     </recent_temporary>
   </component>
@@ -221,22 +236,23 @@
       <updated>1553171598131</updated>
       <workItem from="1553171610339" duration="1623000" />
       <workItem from="1553222663804" duration="2286000" />
-      <workItem from="1553307650439" duration="10455000" />
+      <workItem from="1553307650439" duration="10731000" />
+      <workItem from="1553405805813" duration="2435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14364000" />
+    <option name="totallyTimeSpent" value="17075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2564784" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25980067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5301543" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37587658" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36746144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -258,31 +274,21 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/UpStairs/upstairs.py">
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/UpStairs/upstairs.py" />
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/GoldMining/GoldMining.py" />
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/Bag/Bag.py" />
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/KSum/KSum.py" />
+    <entry file="file://$PROJECT_DIR$/DP/LIS/LIS_optim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/GoldMining/GoldMining.py">
+    <entry file="file://$PROJECT_DIR$/DP/LIS/LIS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/Bag/Bag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/KSum/KSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="95">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
