@@ -6,7 +6,6 @@ class Solution(object):
     def NQueens(self, n):
         self.helper([-1]*n, 0, n)
 
-
     def helper(self, column_positions, row_index, n):
         if row_index == n:
             # 成功排布到了第n行

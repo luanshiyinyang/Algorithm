@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78915fe7-c099-4d57-ac7b-a4343808822d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT/EightQueen/EightQueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/BT/EightQueen/EightQueen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +22,12 @@
     <SUITE FILE_PATH="coverage/Algorithm$upstairs.coverage" NAME="upstairs Coverage Results" MODIFIED="1553173614154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DynamicProgramming/UpStairs" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BT/EightQueen/EightQueen.py">
+        <entry file="file://$PROJECT_DIR$/Greedy/Change/Change.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="197">
+              <caret line="10" column="5" lean-forward="true" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -63,14 +64,15 @@
         <option value="$PROJECT_DIR$/BT/Permutation/Permutation.py" />
         <option value="$PROJECT_DIR$/BT/Combination/Combination.py" />
         <option value="$PROJECT_DIR$/BT/EightQueen/EightQueen.py" />
+        <option value="$PROJECT_DIR$/Greedy/Change/Change.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="220" />
-    <option name="y" value="8" />
-    <option name="width" value="988" />
-    <option name="height" value="1050" />
+    <option name="x" value="218" />
+    <option name="y" value="6" />
+    <option name="width" value="991" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -96,7 +98,18 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="BT" type="462c0819:PsiDirectoryNode" />
-              <item name="EightQueen" type="462c0819:PsiDirectoryNode" />
+              <item name="Permutation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
+              <item name="Change" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -128,7 +141,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.EightQueen">
+  <component name="RunManager" selected="Python.Change">
+    <configuration name="Change" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Greedy/Change" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greedy/Change/Change.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Combination" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,28 +200,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BT/EightQueen/EightQueen.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS/Parentheses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/Parentheses/Parentheses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Change" />
         <item itemvalue="Python.EightQueen" />
         <item itemvalue="Python.Combination" />
         <item itemvalue="Python.Permutation" />
         <item itemvalue="Python.RightNode" />
-        <item itemvalue="Python.Parentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -276,22 +289,25 @@
       <workItem from="1554945104062" duration="2028000" />
       <workItem from="1554980479839" duration="1746000" />
       <workItem from="1555050264329" duration="1231000" />
-      <workItem from="1555131659984" duration="1903000" />
+      <workItem from="1555131659984" duration="2497000" />
+      <workItem from="1555237741321" duration="1292000" />
+      <workItem from="1555309830275" duration="1157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50444000" />
+    <option name="totallyTimeSpent" value="53487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988662" visible="true" weight="0.3129568" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988662" visible="true" weight="0.32093024" />
       <window_info id="Structure" order="1" sideWeight="0.5011338" side_tool="true" weight="0.29302326" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2230014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30575034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36746144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,6 +337,7 @@
     <SUITE FILE_PATH="coverage/Algorithm$Hill.coverage" NAME="Hill Coverage Results" MODIFIED="1554804688141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Hill" />
     <SUITE FILE_PATH="coverage/Algorithm$RightNode.coverage" NAME="RightNode Coverage Results" MODIFIED="1554887163828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/RightNode" />
     <SUITE FILE_PATH="coverage/Algorithm$Paths.coverage" NAME="Paths Coverage Results" MODIFIED="1554706507257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS/Paths" />
+    <SUITE FILE_PATH="coverage/Algorithm$Change.coverage" NAME="Change Coverage Results" MODIFIED="1555313583039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy/Change" />
     <SUITE FILE_PATH="coverage/Algorithm$Parentheses.coverage" NAME="Parentheses Coverage Results" MODIFIED="1554883526932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Parentheses" />
   </component>
   <component name="editorHistoryManager">
@@ -440,8 +457,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BT/EightQueen/EightQueen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/Change/Change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="10" column="5" lean-forward="true" selection-end-line="20" />
         </state>
       </provider>
     </entry>
