@@ -21,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Partition/ConvexHull/ConvexHull.py">
+        <entry file="file://$PROJECT_DIR$/Partition/Polynomial/Polynomial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="48" column="17" lean-forward="true" selection-end-line="85" />
+            <state relative-caret-position="143">
+              <caret line="29" column="26" lean-forward="true" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -66,6 +66,7 @@
         <option value="$PROJECT_DIR$/Greedy/Huffman/Huffman.py" />
         <option value="$PROJECT_DIR$/Partition/LSS/LSS.py" />
         <option value="$PROJECT_DIR$/Partition/ConvexHull/ConvexHull.py" />
+        <option value="$PROJECT_DIR$/Partition/Polynomial/Polynomial.py" />
       </list>
     </option>
   </component>
@@ -100,7 +101,7 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Partition" type="462c0819:PsiDirectoryNode" />
-              <item name="ConvexHull" type="462c0819:PsiDirectoryNode" />
+              <item name="Polynomial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -131,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ConvexHull">
+  <component name="RunManager" selected="Python.Polynomial">
     <configuration name="ActivityArrangement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,28 +147,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greedy/ActivityArrangement/ActivityArrangement.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Change" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Greedy/Change" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greedy/Change/Change.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,13 +221,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Polynomial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Partition/Polynomial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Partition/Polynomial/Polynomial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Polynomial" />
         <item itemvalue="Python.ConvexHull" />
         <item itemvalue="Python.LSS" />
         <item itemvalue="Python.Huffman" />
         <item itemvalue="Python.ActivityArrangement" />
-        <item itemvalue="Python.Change" />
       </list>
     </recent_temporary>
   </component>
@@ -284,23 +285,23 @@
       <workItem from="1555309830275" duration="1766000" />
       <workItem from="1555415694098" duration="3055000" />
       <workItem from="1555420059917" duration="1793000" />
-      <workItem from="1555560627969" duration="4229000" />
+      <workItem from="1555560627969" duration="8771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63173000" />
+    <option name="totallyTimeSpent" value="67715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988662" visible="true" weight="0.33488372" />
-      <window_info id="Structure" order="1" sideWeight="0.5011338" side_tool="true" weight="0.29302326" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49725777" visible="true" weight="0.33488372" />
+      <window_info id="Structure" order="1" sideWeight="0.50274223" side_tool="true" weight="0.33488372" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37447405" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25245443" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36746144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,6 +327,7 @@
     <SUITE FILE_PATH="coverage/Algorithm$ActivityArrangement.coverage" NAME="ActivityArrangement Coverage Results" MODIFIED="1555418150497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy/ActivityArrangement" />
     <SUITE FILE_PATH="coverage/Algorithm$Thief.coverage" NAME="Thief Coverage Results" MODIFIED="1554537836750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS/Thief" />
     <SUITE FILE_PATH="coverage/Algorithm$Hill.coverage" NAME="Hill Coverage Results" MODIFIED="1554804688141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Hill" />
+    <SUITE FILE_PATH="coverage/Algorithm$Polynomial.coverage" NAME="Polynomial Coverage Results" MODIFIED="1555571224139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Partition/Polynomial" />
     <SUITE FILE_PATH="coverage/Algorithm$RightNode.coverage" NAME="RightNode Coverage Results" MODIFIED="1554887163828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/RightNode" />
     <SUITE FILE_PATH="coverage/Algorithm$Paths.coverage" NAME="Paths Coverage Results" MODIFIED="1554706507257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS/Paths" />
     <SUITE FILE_PATH="coverage/Algorithm$ConvexHull.coverage" NAME="ConvexHull Coverage Results" MODIFIED="1555566246535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Partition/ConvexHull" />
@@ -489,8 +491,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Partition/ConvexHull/ConvexHull.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="48" column="17" lean-forward="true" selection-end-line="85" />
+        <state relative-caret-position="78">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Partition/Polynomial/Polynomial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="29" column="26" lean-forward="true" selection-end-line="52" />
         </state>
       </provider>
     </entry>
