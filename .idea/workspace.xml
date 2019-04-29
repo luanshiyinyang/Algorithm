@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78915fe7-c099-4d57-ac7b-a4343808822d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="78915fe7-c099-4d57-ac7b-a4343808822d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,20 +19,7 @@
     <SUITE FILE_PATH="coverage/Algorithm$upstairs.coverage" NAME="upstairs Coverage Results" MODIFIED="1553173614154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DynamicProgramming/UpStairs" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SP/Dijsktra/Dijsktra.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,6 +58,7 @@
         <option value="$PROJECT_DIR$/Partition/ConvexHull/ConvexHull.py" />
         <option value="$PROJECT_DIR$/Partition/Polynomial/Polynomial.py" />
         <option value="$PROJECT_DIR$/SP/Dijsktra/Dijsktra.py" />
+        <option value="$PROJECT_DIR$/SP/Floyd/Floyd.py" />
       </list>
     </option>
   </component>
@@ -96,11 +82,6 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="SP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -286,12 +267,12 @@
       <workItem from="1555415694098" duration="3055000" />
       <workItem from="1555420059917" duration="1793000" />
       <workItem from="1555560627969" duration="9620000" />
-      <workItem from="1555649421348" duration="325000" />
+      <workItem from="1555649421348" duration="401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68889000" />
+    <option name="totallyTimeSpent" value="68965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
@@ -500,6 +481,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SP/Floyd/Floyd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
