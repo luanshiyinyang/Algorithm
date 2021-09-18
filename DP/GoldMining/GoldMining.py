@@ -1,20 +1,11 @@
 def gold_mining(n ,w, G, P):
-    """
-    利用递归实现动态规划算法过程
-    :param n:
-    :param w:
-    :param G:
-    :param P:
-    :return:
-    """
-    if n <= 1 and w < P[0]:
-        return 0
-    if n == 1 and w >= P[0]:
-        return G[0]
-    if n > 1 and w < P[n-1]:
-        return gold_mining(n-1, w, G, P)
-    if n > 1 and w >= P[n-1]:
-        return max(gold_mining(n-1, w, G, P), gold_mining(n-1, w-P[n-1], G, P) + G[n-1])
+    dp = [0] * (w+1)
+
+    for i in range(1, len(G)+1):
+        for j in range(w, 0, -1):
+            if j >= P[i-1]:
+                dp[j] = max(dp[j], dp[j-P[i-1]] + G[i-1])
+    return dp[w]
 
 
 if __name__ == '__main__':
