@@ -1,13 +1,10 @@
-def upstairs(n):
-    if n < 1:
-        return 0
-    if n == 1:
-        return 1
-    if n == 2:
-        return 2
-    if n > 2:
-        return upstairs(n-1) + upstairs(n-2)
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        dp = [0] * 3
+        dp[0], dp[1], dp[2] = 1, 2, 0
 
-
-for i in range(1, 11):
-    print("到第{}级的方案有{}种".format(i, upstairs(i)))
+        for i in range(2, n):
+            dp[2] = dp[0] + dp[1]
+            dp[0], dp[1] = dp[1], dp[2]
+            
+        return dp[2] if n > 2 else dp[n-1]
