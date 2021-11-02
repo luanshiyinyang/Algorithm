@@ -1,9 +1,4 @@
-"""
-该模块实现了一维数据集的冒泡排序
-"""
-
-
-def bubbleSort(data=[5, 4, 3, 2, 1]):
+def bubble_sort(data):
     for i in range(len(data)-1):
         print("第{}趟排序".format(i))
         for j in range(len(data)-1-i):
@@ -12,8 +7,12 @@ def bubbleSort(data=[5, 4, 3, 2, 1]):
         print("当前排序结果为:", data)
     return None
 
+test_data = [1, 3, 5, 7, 9, 8, 6, 4, 2]
+print("原来数据", test_data)
+bubble_sort(test_data)
 
-def bubbleSortOptimized(data=[1, 2, 3, 4, 5]):
+
+def bubble_sort_optimized(data):
     for i in range(len(data)-1):
         flag = False
         print("第{}趟排序".format(i))
@@ -25,11 +24,6 @@ def bubbleSortOptimized(data=[1, 2, 3, 4, 5]):
             break
         print("当前排序结果为:", data)
     return None
-
-
-if __name__ == '__main__':
-    testData = [1, 3, 5, 7, 9, 8, 6, 4, 2]
-    testData2 = [1, 2, 3, 4, 5, 6, 7, 9, 8]
-    print("原来数据", testData)
-    bubbleSort(testData)
-    bubbleSortOptimized(testData2)
+test_data = [1, 2, 3, 4, 5, 6, 7, 9, 8]
+print("原来数据", test_data)
+bubble_sort_optimized(test_data)
